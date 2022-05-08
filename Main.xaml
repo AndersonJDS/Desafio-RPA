@@ -1,0 +1,400 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1057,5631" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="42">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>CredentialManagement</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Credentials.Activities</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="62">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>netstandard</AssemblyReference>
+      <AssemblyReference>CredentialManagement</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Credentials.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="630,5566" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="ss:SecureString" Name="acmesenha" />
+      <Variable x:TypeArguments="x:String" Name="acmeusuario" />
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: ACME System 1 - Log In" sap:VirtualizedContainerService.HintSize="588,5474" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="a7ff7a02-dba1-4ad1-bfc8-d030ba77cb84" Version="V1" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="554,5258" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Int32" Name="var_IntContador" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="512,216" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="a7ff7a02-dba1-4ad1-bfc8-d030ba77cb84" Text="andersonjoaquimdesouza@gmail.com" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/login" DesignTimeRectangle="468, 408, 485, 34" ElementType="InputBox" FriendlyName="'INPUT email'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='email' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='email' class='form-control ' aaname='Email:' /&gt;" Guid="e730c917-4983-4269-aa58-84715faa2d4e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAekAAAAmCAYAAADgB2NCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANxSURBVHhe7d3LThNhHIbx7ya5BW+CrV4KO6NGdyz0EkTDIUSUUyAplCkUCjiH/v2e0iEYVyB0ZvH8kldIad0+mXZmmiblNMa3TRTXdQwnTQwu6zge13F4XsX+qIy9URW7RRm/iiqvjJ9nzjnnnHvK6Cg9pav0lc7SW7pLf+kwPabL9DndBbqJkyviXMVBfvJufuFO/s9+DMvYPi1j6+R3bA7y8s+N/NM555xzjx8dpad0lb7SWXpLd+kvHabHdJk+J4rNA0f5D+v5hStr41heHcar9wPnnHPOLWB0l/7SYXp8F+o6EofWlJs/vP48jLffitg+KqIonHPOObeI0V36S4fpMV2mz4n3wDnEpuA84ebmJuq6jqZpYjqdOuecc+4FR2/pLv19932Ue3wx6zJ9TnxYzXvhHGrvDSezF0iSpMWiv3SYHtNl+pw4q4wPrXlPnJJLkqRu0GF6TJfpc+L0b84u40EOuSVJUjfoMD2my/Q5cZ0Wp4HzoG91S5LUHTpMj+kyfU5cUM31WkZakqRutZGmy/Q5cfcTLqw20pIkdauNNF2mz3eRfuKR9NLS0vw3SZL0v+4jnbt8H2luVWakJUnqVhtpujyLNDf8NtKSJHXvYaTps5GWJKknjLQkST1lpCVJ6ikjLUlSTxlpSZJ6ykhLktRTRlqSpJ4y0pIk9ZSRliSpp4y0JEk9ZaQlSeqpfyLtF2xIktQPDyN9/y1YflWlJEndayP911dV8uXST4m0JEl6PveRbo+kd/M/W088kpYkSc+njTRdps9pb1TF9mlppCVJ6lgbabpMn9P+qIwfQyMtSVLX2kjTZfqcDs+r2Dkz0pIkda2NNF2mz+l4XMduPqReXh3G0UU5f5okSVo0OkyP6TJ9ToPLOg5yrVfWxvFhYzx/miRJWrSPm5ex8vVi1mX6nIaTJte6ivXB73jz5Sw+bV3lklfzp0uSpJdGd+kvHabHdJk+p+K6jpOrOo7moabgHGrznrhzzjnnXn50l/7SYXpMl+lzGt82+Zdm9gDl5hCb98L50JqzyzgNnOu1uLCaO6BwqzLnnHPOPX50lJ7SVfpKZ+kt3aW/dPgu0E3Q5zQpp7NfKDaH1rwHzofVnFXG6d9cp8UF1b+Kanb3E2747ZxzzrnHj47SU7pKX+ksvaW79JcO02O6PCmn8QfwvcKeg8ciyQAAAABJRU5ErkJggg==" InformativeScreenshot="1b3e84f93482de3f43475369df1af805.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="468, 383, 42, 20" ElementType="Text" FriendlyName="'Email'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Email:' check:innerText='Email:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC4AAAAYCAYAAACFms+HAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFESURBVFhH7ZMJcoQgEEW5k9fiKJyGo3gNk1S2WXTQTjfhm4EZEkuNIVV21WO3eSIq+qexi28du/jWsYtvHVfiNZmqoiqDtk1Yt240Vkf5034u/lw8jQXihlu5aMhqWaPJWpO8FOZuc0BmRFteHc9lT7wO+5jYaqZ4iiadjmMjbJyQE10gfg8+YZ/nSxyJaxPW4BSx0dWpRpGI/CieiZni6N/ZqLGk5ZlUHONgffGJd3yqePqpf+/E1xXHVYI31m90VRi/0XzxG6aKL/s5mZnicV55Djk+v+wi8WH4BpkvEJUK9lwAjJWIkgKSEHZcOKnRBhgrAC8+SnF96Yk67qDupGZabpeEYrw0JNvLQOfAKXDsGKnRLgA1CnPtJZkDT7y3Pb21g+f13NNLQNoloHDC8haQFcHnU09PR0ePwsHRQ6ApAkcfDeF6F9IOAvYAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Email'" sap:VirtualizedContainerService.HintSize="512,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a7ff7a02-dba1-4ad1-bfc8-d030ba77cb84" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/login" DesignTimeRectangle="468, 408, 485, 34" ElementType="InputBox" FriendlyName="'INPUT email'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='email' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='email' class='form-control ' aaname='Email:' /&gt;" Guid="04eca4dc-f6d3-45d7-9441-328759593461" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAekAAAAmCAYAAADgB2NCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANxSURBVHhe7d3LThNhHIbx7ya5BW+CrV4KO6NGdyz0EkTDIUSUUyAplCkUCjiH/v2e0iEYVyB0ZvH8kldIad0+mXZmmiblNMa3TRTXdQwnTQwu6zge13F4XsX+qIy9URW7RRm/iiqvjJ9nzjnnnHvK6Cg9pav0lc7SW7pLf+kwPabL9DndBbqJkyviXMVBfvJufuFO/s9+DMvYPi1j6+R3bA7y8s+N/NM555xzjx8dpad0lb7SWXpLd+kvHabHdJk+J4rNA0f5D+v5hStr41heHcar9wPnnHPOLWB0l/7SYXp8F+o6EofWlJs/vP48jLffitg+KqIonHPOObeI0V36S4fpMV2mz4n3wDnEpuA84ebmJuq6jqZpYjqdOuecc+4FR2/pLv19932Ue3wx6zJ9TnxYzXvhHGrvDSezF0iSpMWiv3SYHtNl+pw4q4wPrXlPnJJLkqRu0GF6TJfpc+L0b84u40EOuSVJUjfoMD2my/Q5cZ0Wp4HzoG91S5LUHTpMj+kyfU5cUM31WkZakqRutZGmy/Q5cfcTLqw20pIkdauNNF2mz3eRfuKR9NLS0vw3SZL0v+4jnbt8H2luVWakJUnqVhtpujyLNDf8NtKSJHXvYaTps5GWJKknjLQkST1lpCVJ6ikjLUlSTxlpSZJ6ykhLktRTRlqSpJ4y0pIk9ZSRliSpp4y0JEk9ZaQlSeqpfyLtF2xIktQPDyN9/y1YflWlJEndayP911dV8uXST4m0JEl6PveRbo+kd/M/W088kpYkSc+njTRdps9pb1TF9mlppCVJ6lgbabpMn9P+qIwfQyMtSVLX2kjTZfqcDs+r2Dkz0pIkda2NNF2mz+l4XMduPqReXh3G0UU5f5okSVo0OkyP6TJ9ToPLOg5yrVfWxvFhYzx/miRJWrSPm5ex8vVi1mX6nIaTJte6ivXB73jz5Sw+bV3lklfzp0uSpJdGd+kvHabHdJk+p+K6jpOrOo7moabgHGrznrhzzjnnXn50l/7SYXpMl+lzGt82+Zdm9gDl5hCb98L50JqzyzgNnOu1uLCaO6BwqzLnnHPOPX50lJ7SVfpKZ+kt3aW/dPgu0E3Q5zQpp7NfKDaH1rwHzofVnFXG6d9cp8UF1b+Kanb3E2747ZxzzrnHj47SU7pKX+ksvaW79JcO02O6PCmn8QfwvcKeg8ciyQAAAABJRU5ErkJggg==" InformativeScreenshot="9f342966a8c62ebddfebc8fab9221ca0.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="468, 383, 42, 20" ElementType="Text" FriendlyName="'Email'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Email:' check:innerText='Email:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC4AAAAYCAYAAACFms+HAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFESURBVFhH7ZMJcoQgEEW5k9fiKJyGo3gNk1S2WXTQTjfhm4EZEkuNIVV21WO3eSIq+qexi28du/jWsYtvHVfiNZmqoiqDtk1Yt240Vkf5034u/lw8jQXihlu5aMhqWaPJWpO8FOZuc0BmRFteHc9lT7wO+5jYaqZ4iiadjmMjbJyQE10gfg8+YZ/nSxyJaxPW4BSx0dWpRpGI/CieiZni6N/ZqLGk5ZlUHONgffGJd3yqePqpf+/E1xXHVYI31m90VRi/0XzxG6aKL/s5mZnicV55Djk+v+wi8WH4BpkvEJUK9lwAjJWIkgKSEHZcOKnRBhgrAC8+SnF96Yk67qDupGZabpeEYrw0JNvLQOfAKXDsGKnRLgA1CnPtJZkDT7y3Pb21g+f13NNLQNoloHDC8haQFcHnU09PR0ePwsHRQ6ApAkcfDeF6F9IOAvYAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="512,216" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="a7ff7a02-dba1-4ad1-bfc8-d030ba77cb84" Text="Anderson2021#" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/login" DesignTimeRectangle="468, 482, 485, 34" ElementType="InputBoxPassword" FriendlyName="'INPUT password'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='form-control ' aaname='Password:' /&gt;" Guid="63558667-b672-477e-852a-5653c4ca437f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAekAAAAmCAYAAADgB2NCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGBSURBVHhe7dixqsJAFEXR9//fZhm01MI0FmKjElDnccQELSxNbrEWnCIZrTeTvwYAlCTSAFDUR6SHYWh937eu69pqtTIzM7MZlu6mv+nwuynSOViv12273bbD4dCOx6OZmZnNsHQ3/U2H30M9RToF3+127Xq9ttvt1u73e3s8HmZmZvbDpbfpbvqbDqfHoynSuWqfTqfnHwCAeaW/6XB6PJoinW/iKTkAsIx0OD0efUQ6V24AYBnp8NdI+9QNAMtJh0UaAAoSaQAoSqQBoCiRBoCiRBoAihJpAChKpAGgKJEGgKJEGgCKEmkAKEqkAaAokQaAokQaAIoSaQAoSqQBoCiRBoCiRBoAihJpAChKpAGgKJEGgKJEGgCKEmkAKEqkAaCor5Huuq6dz+fXEwAwt3Q4PR5Nke77vu33+9cTADC3dDg9Hk2RHoahbTab5+Hlcnm9BQB+Ld1Nf9Ph9Hg0RTpykB/lqp1v4mZmZvb7pbvp73ug4yPSAEAdIg0AJbX2DzLEeqPVoM8aAAAAAElFTkSuQmCC" InformativeScreenshot="b8bef1b3c713ccbcd196d0a8506cf4fa.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="468, 457, 71, 20" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl aaname='Password:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password:' tag='LABEL' type='' class='' check:innerText='Password:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEsAAAAYCAYAAACyVACzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGfSURBVFhH7ZTtbcQgDIa7U9ZiFKZhlKyRIWg4/Bpj4IhbVapOfiX/uPP3A+Qrux7LYRnksAxyWAY5LIMclkEOyyAB68zxOPIxsZAuivlEXTmFsme8CbzXI1jFPhfYr2CppDNWYBH/jlDZVYR4WEj3OEJL/9j/jDWmHRTFIOdKOaBOsW6Qlh8jetbaVwqcE9I5whp2rjLCwilooxw9PAxNN/66XMiVjegFODTLC96qljgcwGIrffRhsf0I1txUHgkL0YJYYB689y9h1EUkzPHWNbgoz7C4X4vhPO6jLslEj2DNdutPbXIbyNoyRRu/hEng8ITiidyy1PtXgJqYsc0/y5N132v/DDuhsIaD35ACr79bS38bPL4WvWchgOGG1m7lYsF/BQsnz8shR8OCVjCh0S8/vrUPYqphccszbLBaDOfh+/RnsAajZbmxMsDd+YtED31DutlWs4haI6xbqxlkbcR0ieZnWGYUJ1+KUeHxpGCq3s7Pc4glkSOhFmlgarkprFv9DolumwmWayeHZZDDMshhGeSwDHJYBjmsx8r5G4PBXVC5Ber2AAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Login'" sap:VirtualizedContainerService.HintSize="512,156" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a7ff7a02-dba1-4ad1-bfc8-d030ba77cb84" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/login" DesignTimeRectangle="468, 572, 60, 34" ElementType="Button" FriendlyName="'Login'" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn btn-primary' aaname='                             Login                         ' check:innerText='Login' /&gt;" Guid="d354d5ad-31b0-4010-b6dc-bad895eab844" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAAAmCAYAAAB0xJ2ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHBSURBVGhD7Zq9TsMwFIV5IoToygKCx2FiAPFXCdY+BhQYKqS2Eq9Aq3btFnXpQqVIKBUdulxyHDtxIgdRmobEvkc6SlI7yT2fnWRwd8hxMQC5Ffr4/KL7lyEdXXVo9/TBKiPT3fNQZNQVA0DDye0r7Z11aP+8R43LN6uMTMh2HGbUIcQAQAcdTCfbZGS8fnyXqTUAh+EUsXHks0ZGZFWKAeA5MZ1go5FViQHILQNgAAyAARg722gGUByACY2WRNOxqW1zd+dhYfOZsW0T1wbAtlwygBlN5T2gwJuk2sUoSwWeL/qq6+kzoOWtwn1f3E8pe63fukQAUfik0PSxCEUL6sr+CkYuAK2tMV6ERysa9eXxGi4NgCh66VNL/10UjtCGc/s+BWFrLoDUtSKYeff+yaUB0APEFiEBAAGyI5gOxQDqDsD5R0AVWdhLsKoATEoKiwpVyn66VGgo+gwmj0UNABRthPrbp20dVwRANHv0GWF8Z2zB1ZkB8qUXq4TwcHUA/JMZAANgADI1A0gAOL801mwPnFkcvWkbFkexZHxw0REdbJwJyIRsyGhcHofQ0HwaWPsHCYy8Hh5KAXBRjgMg+gZpT/YrJB2iewAAAABJRU5ErkJggg==" InformativeScreenshot="e991f42f4b3a58a598ebd878f1381cf2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Work Items'" sap:VirtualizedContainerService.HintSize="512,156" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a7ff7a02-dba1-4ad1-bfc8-d030ba77cb84" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/" DesignTimeRectangle="460, 522, 200, 46" ElementType="Button" FriendlyName="'Work Items'" FullSelectorArgument="&lt;webctrl aaname='                          Work Items' parentid='dashmenu' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                          Work Items' parentid='dashmenu' tag='BUTTON' type='button' class='btn btn-default btn-lg' check:innerText='Work Items' /&gt;" Guid="82cfd529-6d5c-4ef4-b746-e4cb0930b39d" ImageBase64="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" InformativeScreenshot="722a2e5c5056ddf7e4f4a192c56cc7a1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,249" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Actions' ReferenceIdx='0' Name='Actions'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Actions Url' ReferenceIdx='1' Name='Actions Url'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='WIID' ReferenceIdx='2' Name='WIID'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Description' ReferenceIdx='3' Name='Description'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Type' ReferenceIdx='4' Name='Type'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Status' ReferenceIdx='5' Name='Status'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Date' ReferenceIdx='6' Name='Date'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Actions' attr='text' name2='Actions Url' attr2='href' /&gt;&lt;column name='WIID' attr='text' /&gt;&lt;column name='Description' attr='text' /&gt;&lt;column name='Type' attr='text' /&gt;&lt;column name='Status' attr='text' /&gt;&lt;column name='Date' attr='text' /&gt;&lt;/extract-table&gt;" ExtractSimilar="True" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NExtractData_3" LimitExtractionTo="Rows" MaximumResults="0" Version="V1">
+                <uix:NExtractData.NextLink>
+                  <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/work-items" DesignTimeRectangle="1432, 894, 22, 22" ElementType="Text" FriendlyName="'&gt;'" FullSelectorArgument="&lt;webctrl aaname='&amp;gt;' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='&amp;gt;' tag='A' type='' class='page-numbers' check:innerText='&amp;gt;' /&gt;" Guid="8d2ed88e-e563-470d-b96c-52aeeee6c7b6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEaSURBVEhLzZZRDoIwEEQ9LYfwEFzES3AILwGEhA8If6w+TRus04rFNE4yCaG7feyyJZyskP4HtK6rzfNs4zha3/fWtu3DXHNvWZZHzCdFQSRP02Rd1/nNYyaG2BRQgkgYhkFumjI5MdgbiMA9VcRMroK9gHIrCa0qewHRZ5WYY/bayoOOtix02EIPYoRVwhEz+k4exJlQwbipK6sbvZYyezp50PYwKgOrqrvrRq4rMxROHqQCla+X8xN4vthVrId2+hrk3dS7YE67W+f8TUWydalhwDnvSA5Darxzp06Od7EDi4p8ghBPUOSjio62MGyZ0xsI5VamKnGSIEQCfd5THTHExiAoCnIimTHlTGyr5Jp7h39Ofq1CILMbI1MRPAAt/5MAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
+                </uix:NExtractData.NextLink>
+                <uix:NExtractData.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="461, 449, 998, 431" FriendlyName="'Actions WIID'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;" Guid="b01ad888-6753-4deb-8279-adc0e3de5583" InformativeScreenshot="ae884bf7cde05f2e836461d421109d9a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector" Visibility="Interactive" />
+                </uix:NExtractData.Target>
+              </uix:NExtractData>
+            </Sequence>
+            <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[ExtractDataTable]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="512,115" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Planilha1" WorkbookPath="Dados.xlsx" />
+            <Assign sap:VirtualizedContainerService.HintSize="512,61" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[var_IntContador]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">1</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[var_IntContador &lt;= 5]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="512,672" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+              <ui:InterruptibleDoWhile.Body>
+                <Sequence DisplayName="Corpo" sap:VirtualizedContainerService.HintSize="476,507" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="sd:DataTable" Name="var_dtFiltrado" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:FilterDataTable DataTable="[ExtractDataTable]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="434,160" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[var_dtFiltrado]" SelectColumnsMode="Keep">
+                    <ui:FilterDataTable.Filters>
+                      <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                        <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+                          <ui:FilterOperationArgument.Column>
+                            <InArgument x:TypeArguments="x:String">["Type"]</InArgument>
+                          </ui:FilterOperationArgument.Column>
+                          <ui:FilterOperationArgument.Operand>
+                            <InArgument x:TypeArguments="x:String">["WI1"]</InArgument>
+                          </ui:FilterOperationArgument.Operand>
+                        </ui:FilterOperationArgument>
+                      </scg:List>
+                    </ui:FilterDataTable.Filters>
+                    <ui:FilterDataTable.SelectColumns>
+                      <scg:List x:TypeArguments="InArgument" Capacity="4">
+                        <x:Null />
+                      </scg:List>
+                    </ui:FilterDataTable.SelectColumns>
+                  </ui:FilterDataTable>
+                  <ui:WriteRange StartingCell="{x:Null}" AddHeaders="False" DataTable="[var_dtFiltrado]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="WriteRange_2" SheetName="Planilha1" WorkbookPath="WI1.xlsx" />
+                  <Assign sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Int32">[var_IntContador]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Int32">[var_IntContador + 1]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                </Sequence>
+              </ui:InterruptibleDoWhile.Body>
+            </ui:InterruptibleDoWhile>
+            <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[var_IntContador &lt;= 5]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="512,672" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_2">
+              <ui:InterruptibleDoWhile.Body>
+                <Sequence DisplayName="Corpo" sap:VirtualizedContainerService.HintSize="476,507" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="sd:DataTable" Name="var_dtFiltrado" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:FilterDataTable DataTable="[ExtractDataTable]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="434,160" sap2010:WorkflowViewState.IdRef="FilterDataTable_2" OutputDataTable="[var_dtFiltrado]" SelectColumnsMode="Keep">
+                    <ui:FilterDataTable.Filters>
+                      <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                        <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+                          <ui:FilterOperationArgument.Column>
+                            <InArgument x:TypeArguments="x:String">["Type"]</InArgument>
+                          </ui:FilterOperationArgument.Column>
+                          <ui:FilterOperationArgument.Operand>
+                            <InArgument x:TypeArguments="x:String">["WI2"]</InArgument>
+                          </ui:FilterOperationArgument.Operand>
+                        </ui:FilterOperationArgument>
+                      </scg:List>
+                    </ui:FilterDataTable.Filters>
+                    <ui:FilterDataTable.SelectColumns>
+                      <scg:List x:TypeArguments="InArgument" Capacity="4">
+                        <x:Null />
+                      </scg:List>
+                    </ui:FilterDataTable.SelectColumns>
+                  </ui:FilterDataTable>
+                  <ui:WriteRange StartingCell="{x:Null}" AddHeaders="False" DataTable="[var_dtFiltrado]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="WriteRange_3" SheetName="Planilha1" WorkbookPath="WI2.xlsx" />
+                  <Assign sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Int32">[var_IntContador]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Int32">[var_IntContador + 1]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                </Sequence>
+              </ui:InterruptibleDoWhile.Body>
+            </ui:InterruptibleDoWhile>
+            <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[var_IntContador &lt;= 5]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="512,672" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_3">
+              <ui:InterruptibleDoWhile.Body>
+                <Sequence DisplayName="Corpo" sap:VirtualizedContainerService.HintSize="476,507" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="sd:DataTable" Name="var_dtFiltrado" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:FilterDataTable DataTable="[ExtractDataTable]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="434,160" sap2010:WorkflowViewState.IdRef="FilterDataTable_3" OutputDataTable="[var_dtFiltrado]" SelectColumnsMode="Keep">
+                    <ui:FilterDataTable.Filters>
+                      <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                        <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+                          <ui:FilterOperationArgument.Column>
+                            <InArgument x:TypeArguments="x:String">["Type"]</InArgument>
+                          </ui:FilterOperationArgument.Column>
+                          <ui:FilterOperationArgument.Operand>
+                            <InArgument x:TypeArguments="x:String">["WI3"]</InArgument>
+                          </ui:FilterOperationArgument.Operand>
+                        </ui:FilterOperationArgument>
+                      </scg:List>
+                    </ui:FilterDataTable.Filters>
+                    <ui:FilterDataTable.SelectColumns>
+                      <scg:List x:TypeArguments="InArgument" Capacity="4">
+                        <x:Null />
+                      </scg:List>
+                    </ui:FilterDataTable.SelectColumns>
+                  </ui:FilterDataTable>
+                  <ui:WriteRange StartingCell="{x:Null}" AddHeaders="False" DataTable="[var_dtFiltrado]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="WriteRange_4" SheetName="Planilha1" WorkbookPath="WI3.xlsx" />
+                  <Assign sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Assign_4">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Int32">[var_IntContador]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Int32">[var_IntContador + 1]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                </Sequence>
+              </ui:InterruptibleDoWhile.Body>
+            </ui:InterruptibleDoWhile>
+            <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[var_IntContador &lt;= 5]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="512,672" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_4">
+              <ui:InterruptibleDoWhile.Body>
+                <Sequence DisplayName="Corpo" sap:VirtualizedContainerService.HintSize="476,507" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="sd:DataTable" Name="var_dtFiltrado" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:FilterDataTable DataTable="[ExtractDataTable]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="434,160" sap2010:WorkflowViewState.IdRef="FilterDataTable_4" OutputDataTable="[var_dtFiltrado]" SelectColumnsMode="Keep">
+                    <ui:FilterDataTable.Filters>
+                      <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                        <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+                          <ui:FilterOperationArgument.Column>
+                            <InArgument x:TypeArguments="x:String">["Type"]</InArgument>
+                          </ui:FilterOperationArgument.Column>
+                          <ui:FilterOperationArgument.Operand>
+                            <InArgument x:TypeArguments="x:String">["WI4"]</InArgument>
+                          </ui:FilterOperationArgument.Operand>
+                        </ui:FilterOperationArgument>
+                      </scg:List>
+                    </ui:FilterDataTable.Filters>
+                    <ui:FilterDataTable.SelectColumns>
+                      <scg:List x:TypeArguments="InArgument" Capacity="4">
+                        <x:Null />
+                      </scg:List>
+                    </ui:FilterDataTable.SelectColumns>
+                  </ui:FilterDataTable>
+                  <ui:WriteRange StartingCell="{x:Null}" AddHeaders="False" DataTable="[var_dtFiltrado]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="WriteRange_5" SheetName="Planilha1" WorkbookPath="WI4.xlsx" />
+                  <Assign sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Assign_5">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Int32">[var_IntContador]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Int32">[var_IntContador + 1]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                </Sequence>
+              </ui:InterruptibleDoWhile.Body>
+            </ui:InterruptibleDoWhile>
+            <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[var_IntContador &lt;= 5]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="512,672" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_5">
+              <ui:InterruptibleDoWhile.Body>
+                <Sequence DisplayName="Corpo" sap:VirtualizedContainerService.HintSize="476,507" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="sd:DataTable" Name="var_dtFiltrado" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:FilterDataTable DataTable="[ExtractDataTable]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="434,160" sap2010:WorkflowViewState.IdRef="FilterDataTable_5" OutputDataTable="[var_dtFiltrado]" SelectColumnsMode="Keep">
+                    <ui:FilterDataTable.Filters>
+                      <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                        <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+                          <ui:FilterOperationArgument.Column>
+                            <InArgument x:TypeArguments="x:String">["Type"]</InArgument>
+                          </ui:FilterOperationArgument.Column>
+                          <ui:FilterOperationArgument.Operand>
+                            <InArgument x:TypeArguments="x:String">["WI5"]</InArgument>
+                          </ui:FilterOperationArgument.Operand>
+                        </ui:FilterOperationArgument>
+                      </scg:List>
+                    </ui:FilterDataTable.Filters>
+                    <ui:FilterDataTable.SelectColumns>
+                      <scg:List x:TypeArguments="InArgument" Capacity="4">
+                        <x:Null />
+                      </scg:List>
+                    </ui:FilterDataTable.SelectColumns>
+                  </ui:FilterDataTable>
+                  <ui:WriteRange StartingCell="{x:Null}" AddHeaders="False" DataTable="[var_dtFiltrado]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="WriteRange_6" SheetName="Planilha1" WorkbookPath="WI5.xlsx" />
+                  <Assign sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Assign_6">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Int32">[var_IntContador]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Int32">[var_IntContador + 1]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                </Sequence>
+              </ui:InterruptibleDoWhile.Body>
+            </ui:InterruptibleDoWhile>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAReSURBVFhHvZdtbFNlFMcf3SxUfI0miLAEWdShCV+EGD9oUJBJAobwQb8IGklkKEQkcy8MZK90tGsnZbxsvkDmxsYkS8QFPhDYLIy+sbv2rhW3dYPFbGyVbYwJJMu2wzm3Prd317ZCc+uHf9vnPC/n13PPc57nMrZX6EPdQo39zyKf1wgAZJWQ2sJtzYVrkw+lDT9G5UbBZWB5TmC7XIlRHgnXJ4hSyecwAYwxAzawM/1EoKFSvLEh97eBjOw4xedmNg9k7LSFRO2sloEMg2Po0x3n+4tYMUaiUIr0SAiAiL5xwfrGqyvSt69hiZZuXzv6cwP+cQVAoRveqQtsizRBS33vHV6cTAD5agA0rG7o+SLSpHg0ODG9aGlFR+vy+kCl0l4p3HgpKkC6RgAA8GxSqQfY5zZgm22wq3XwFO+zOIeiA6z5OQyQctBXpTd6BdwZwrsNPVZuV2vJD3/YWOFl9xNmr5hULGwiW8v1OxvZpmZg5SKw7a2Y8e3Ax5c5g9EB1p4MA+hNnjssH7dlth2WHusMcrta8yt8wHLswIpwbEHbUW5P/e4KsK0XJDX2jBVw+30DPGkR7awIt8pOJ7xR03WO29VadNg/Ke1tLDJPfyvuUfbtbu5fn+MIvqK0HYmVAzMAzKJTAdCsXEQpBJimMQQwx+TNjzRm6PbUQ/x3lWc4cQC60nYZYOEhP+jxsTxqbAfMp3JurxZHNAY44p/iAHpFBB63eIF9jbmBJVhn9Bi5vdanPYAcASUA/mtgu7H24+H2nLVDttdoDZAaBWAB7Q4CwLo/d38cAE9Z7hsg4iOIC+B9BcDsfR6XdGrhFltW3XWe29VKq/JPSAAGHFsiyPs9LgBlJcQk8mGFA5ZlhxX1gTPcrlbKobCjOWavidvjAnjreEAG+Ph03yn21SVgmZfg9druAW5XK9mI2Y5HOct2gFUIbuH25w/EAfBmTRjgqH9ks1RK6VDBx9B5a+IF3sc1DbCE5TqoBEvb7drfE/N431xrx4MDrKwPA5D0Zeg8FxehwXvckHfh+icmVzCt7vfRxTkt/VmMzopinLv1IrxW03VTOTdaBKpjAbynOo6b/hzfwj46hxmO/ZQPGGZdGYac2plYZOgOSU4+s8HoFKxSzk2hHKBHg3VgntUnnxExI6AGIH3Y1NfGdmAufInHKk2ik48umBgRsusK3LDhbL9c6biYAZ1suyglMUbpILfX+R8QgNTUO77sg8beX58xeuAxrO3JeL7Pt4jjG3+5+lPf3UldpDlvH+++mXqgY/LlSj8srw1kcfsxMcZhFA1ASx0WYgDglSzhl9IfPcNpUQHwUro20iStNQsf47+v5ZjN6072lpy4Mrqw3BV81eSYKSPKjCq1D0ptc4Qx/6UK4a8XjY6hdcmUoJi86FsCCL2aIUQSdszGRHsYvylMWusRFNuLotoReh2UXs1CDXpXo9cl2l5ElwjxtblPEn50o0ZQQUmGf74ToZlro0+h8x4tMHhuvyezngAAAABJRU5ErkJggg==" InformativeScreenshot="6be5c471e0cae6e84ce4952d5fa14db0.png" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;" Url="https://acme-test.uipath.com/login" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
